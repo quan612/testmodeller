@@ -19,7 +19,7 @@ namespace Tests
 
 		
        [Test]
-        [TestModellerId("4a964944-7721-43ed-9ecd-b73cf4ed9dce")]
+        [TestModellerId("dc8a8263-bf52-48a2-8ce7-941729314bff")]
         public void GoToUrlEmptyusernameandpassworderror()
         {
         
@@ -33,6 +33,9 @@ namespace Tests
 
     TestModellerLogger.SetLastNodeGuid("d6118e2a-35d2-43a3-b410-d64d27c9f77d");
     _Page_Objects.Assert_Password_is_required();
+
+    TestModellerLogger.SetLastNodeGuid("d6118e2a-35d2-43a3-b410-d64d27c9f77d");
+    _Page_Objects.Assert_Username_is_required();
 
         }
 

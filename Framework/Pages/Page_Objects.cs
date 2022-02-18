@@ -32,7 +32,7 @@ namespace Pages
 
         
      
- 	public void Assert_Password_is_required()
+ 	public void Assert_Password_is_required_OK()
  	{
  		IWebElement elem = getWebElement(Password_is_requiredElem);
 
